@@ -2,27 +2,22 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
-/* Navbar */
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 60px;
 }
-
 .left, .right {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
 .left a {
     text-decoration: none;
     color: #333;
     font-size: 14px;
 }
-
 .right input {
     padding: 5px;
 }
@@ -34,8 +29,6 @@ button {
     padding: 8px 16px;
     cursor: pointer;
 }
-
-/* Main */
 #mainC {
     display: flex;
     justify-content: space-between;
